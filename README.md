@@ -2,8 +2,11 @@
 Horst A. Obenhaus, Weijian Zong, R. Irene Jacobsen, Tobias Rose, Flavio Donato, Liangyi Chen, Heping Cheng, Tobias Bonhoeffer, May-Britt Moser, Edvard I. Moser
 
 Code:
+
 [![DOI](https://zenodo.org/badge/452277116.svg)](https://zenodo.org/badge/latestdoi/452277116)
 
+
+Data: [10.11582/2022.00005](https://archive.sigma2.no/pages/public/datasetDetail.jsf?id=10.11582/2022.00005)
 
 ## DATA
 
