@@ -1,0 +1,16 @@
+version: '2.4'
+services:
+  db:
+    image: datajoint/mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=simple
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./dump.sql:/tmp/dump.sql
+      - ./mysqldata:/var/lib/mysql
+#    command:
+#      - /bin/bash
+#      - -c
+#      - |
+#        mysql -hdb -uroot -psimple < /tmp/dump.sql

@@ -1,0 +1,70 @@
+<svg height="185pt" viewBox="0.00 0.00 228.50 185.00" width="229pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1 1) rotate(0) translate(4 181)">
+<polygon fill="white" points="-4,4 -4,-181 224.5,-181 224.5,4 -4,4" stroke="transparent"/>
+<!-- Implant -->
+<g class="node" id="node1">
+<title>Implant</title>
+<g id="a_node1"><a xlink:title="→ Animal→ ImplantSpecbrain_region         hemisphere           ------------------------------ml_reference=null    implant_ml=null      dv_reference=null    implant_dv=null      ap_reference=null    implant_ap=null      angle_ap=null        angle_ap_dir=null    angle_ml=null        angle_ml_dir=null    implant_comment=null ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="56,-35 0,-35 0,0 56,0 56,-35" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="8" y="-15.4">Implant</text>
+</a>
+</g>
+</g>
+<!-- AnimalColor -->
+<g class="node" id="node2">
+<title>AnimalColor</title>
+<g id="a_node2"><a xlink:title="color                ">
+<polygon fill="#000000" fill-opacity="0.125490" points="144.5,-177 73.5,-177 73.5,-142 144.5,-142 144.5,-177" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="81.5" y="-158">AnimalColor</text>
+</a>
+</g>
+</g>
+<!-- Animal -->
+<g class="node" id="node5">
+<title>Animal</title>
+<g id="a_node5"><a xlink:title="animal_id            datasource_id=0      ------------------------------animal_species       animal_name          animal_sex           animal_dob=null      → AnimalColoranimal_notes=null    INDEX (animal_name, animal_species)">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="135.5,-106 82.5,-106 82.5,-71 135.5,-71 135.5,-106" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="90.5" y="-86.4">Animal</text>
+</a>
+</g>
+</g>
+<!-- AnimalColor&#45;&gt;Animal -->
+<g class="edge" id="edge1">
+<title>AnimalColor-&gt;Animal</title>
+<path d="M109,-141.8C109,-130.95 109,-116.87 109,-106.05" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Genotype -->
+<g class="node" id="node3">
+<title>Genotype</title>
+<g id="a_node3"><a xlink:title="→ Animal→ Gene------------------------------genotype             ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="143.5,-35 74.5,-35 74.5,0 143.5,0 143.5,-35" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="middle" x="109" y="-14.4">Genotype</text>
+</a>
+</g>
+</g>
+<!-- Session -->
+<g class="node" id="node4">
+<title>Session</title>
+<g id="a_node4"><a xlink:title="→ MetaSessionsession_order        session_name         ------------------------------→ Animalanimal_name          timestamp=CURRENT_TIMESTAMP combined             timeseries_name=&quot;&quot;   → ExperimentType→ User">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="220.5,-35 161.5,-35 161.5,0 220.5,0 220.5,-35" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="169.5" y="-15.4">Session</text>
+</a>
+</g>
+</g>
+<!-- Animal&#45;&gt;Implant -->
+<g class="edge" id="edge2">
+<title>Animal-&gt;Implant</title>
+<path d="M89.39,-70.8C76.66,-59.95 60.13,-45.87 47.43,-35.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Animal&#45;&gt;Genotype -->
+<g class="edge" id="edge3">
+<title>Animal-&gt;Genotype</title>
+<path d="M109,-70.8C109,-59.95 109,-45.87 109,-35.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Animal&#45;&gt;Session -->
+<g class="edge" id="edge4">
+<title>Animal-&gt;Session</title>
+<path d="M128.85,-70.8C141.74,-59.95 158.48,-45.87 171.33,-35.05" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+</g>
+</svg>

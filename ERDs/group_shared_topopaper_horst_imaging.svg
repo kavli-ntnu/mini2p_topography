@@ -1,0 +1,460 @@
+<svg height="309pt" viewBox="0.00 0.00 1616.50 309.00" width="1617pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1 1) rotate(0) translate(4 305)">
+<polygon fill="white" points="-4,4 -4,-305 1612.5,-305 1612.5,4 -4,4" stroke="transparent"/>
+<!-- 1569 -->
+<g class="node" id="node1">
+<title>1569</title>
+<ellipse cx="1226.5" cy="-75" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="1226.5" y="-74.7">1569</text>
+</g>
+<!-- ScoremapCorr -->
+<g class="node" id="node20">
+<title>ScoremapCorr</title>
+<g id="a_node20"><a xlink:title="→ ScoremapFOV.proj(binning_param_A=&quot;binning_param_short&quot;)→ ScoremapFOV.proj(binning_param_B=&quot;binning_param_short&quot;)→ ScoremapFOVProjParams------------------------------xcorr=null           xcorr_shuffles=null  xcorr_95=null        xcorr_99=null        xcorr_5=null         xcorr_1=null         ">
+<ellipse cx="1189.5" cy="-13" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="1189.5" y="-9.9">ScoremapCorr</text>
+</a>
+</g>
+</g>
+<!-- 1569&#45;&gt;ScoremapCorr -->
+<g class="edge" id="edge1">
+<title>1569-&gt;ScoremapCorr</title>
+<path d="M1225.86,-72.96C1222.36,-67.29 1205.46,-39.88 1195.98,-24.51" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1563 -->
+<g class="node" id="node2">
+<title>1563</title>
+<ellipse cx="394.5" cy="-141.5" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="394.5" y="-141.2">1563</text>
+</g>
+<!-- CutoffsOVScore -->
+<g class="node" id="node9">
+<title>CutoffsOVScore</title>
+<g id="a_node9"><a xlink:title="→ FilteredSessions.proj(base_session=&quot;session_name&quot;)→ FilteredCellsParams------------------------------n_shuffles           ovscore_90=null      ovscore_95=null      ovscore_99=null      ">
+<ellipse cx="752.5" cy="-75" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="752.5" y="-71.9">CutoffsOVScore</text>
+</a>
+</g>
+</g>
+<!-- 1563&#45;&gt;CutoffsOVScore -->
+<g class="edge" id="edge2">
+<title>1563-&gt;CutoffsOVScore</title>
+<path d="M395.38,-139.37C397.86,-136.31 405.23,-127.77 413.5,-124 415.41,-123.13 678.15,-86.39 739.7,-77.79" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1565 -->
+<g class="node" id="node3">
+<title>1565</title>
+<ellipse cx="217.5" cy="-212.5" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="217.5" y="-212.2">1565</text>
+</g>
+<!-- NNeighbourInterIntra -->
+<g class="node" id="node12">
+<title>NNeighbourInterIntra</title>
+<g id="a_node12"><a xlink:title="→ FilteredSessions→ FilteredCellsParams→ PairwDistParams.proj(pairwise_dist_param_A=&quot;pairwise_dist_param&quot;)→ PairwDistParams.proj(pairwise_dist_param_B=&quot;pairwise_dist_param&quot;)→ ProjectionCorr">
+<ellipse cx="217.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="217.5" y="-138.4">NNeighbourInterIntra</text>
+</a>
+</g>
+</g>
+<!-- 1565&#45;&gt;NNeighbourInterIntra -->
+<g class="edge" id="edge3">
+<title>1565-&gt;NNeighbourInterIntra</title>
+<path d="M217.5,-210.3C217.5,-203.79 217.5,-172.27 217.5,-154.59" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1564 -->
+<g class="node" id="node4">
+<title>1564</title>
+<ellipse cx="254.5" cy="-212.5" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="254.5" y="-212.2">1564</text>
+</g>
+<!-- 1564&#45;&gt;NNeighbourInterIntra -->
+<g class="edge" id="edge4">
+<title>1564-&gt;NNeighbourInterIntra</title>
+<path d="M253.98,-210.52C250.69,-204.4 232.74,-170.93 223.31,-153.33" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1570 -->
+<g class="node" id="node5">
+<title>1570</title>
+<ellipse cx="1189.5" cy="-75" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="1189.5" y="-74.7">1570</text>
+</g>
+<!-- 1570&#45;&gt;ScoremapCorr -->
+<g class="edge" id="edge5">
+<title>1570-&gt;ScoremapCorr</title>
+<path d="M1189.5,-72.96C1189.5,-67.48 1189.5,-41.67 1189.5,-26.07" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- CutoffsGridscore -->
+<g class="node" id="node6">
+<title>CutoffsGridscore</title>
+<g id="a_node6"><a xlink:title="→ FilteredSessions→ FilteredCellsParams------------------------------n_shuffles           gridscore_90=null    gridscore_95=null    gridscore_99=null    ">
+<ellipse cx="711.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="711.5" y="-138.4">CutoffsGridscore</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams -->
+<g class="node" id="node7">
+<title>FilteredCellsParams</title>
+<g id="a_node7"><a xlink:title="param_hash_id_cell=&quot;standard&quot; ------------------------------param_hash_cell      restriction_dict_cell parameter_dict_cell  ">
+<polygon fill="#000000" fill-opacity="0.125490" points="837,-230 730,-230 730,-195 837,-195 837,-230" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="738" y="-211">FilteredCellsParams</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;CutoffsGridscore -->
+<g class="edge" id="edge6">
+<title>FilteredCellsParams-&gt;CutoffsGridscore</title>
+<path d="M766.07,-194.8C751.75,-181.08 732.04,-162.19 720.65,-151.27" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- PairwDist -->
+<g class="node" id="node8">
+<title>PairwDist</title>
+<g id="a_node8"><a xlink:title="→ FilteredSessions→ FilteredCellsParams→ PairwDistParams→ ProjectionCorr">
+<ellipse cx="333.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="333.5" y="-138.4">PairwDist</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;PairwDist -->
+<g class="edge" id="edge7">
+<title>FilteredCellsParams-&gt;PairwDist</title>
+<path d="M729.9,-201.52C716.72,-199.23 702.62,-196.9 689.5,-195 550.48,-174.85 511.8,-192.97 375.5,-159 364.86,-156.35 353.29,-151.66 345,-147.96" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredCellsParams&#45;&gt;CutoffsOVScore -->
+<g class="edge" id="edge8">
+<title>FilteredCellsParams-&gt;CutoffsOVScore</title>
+<path d="M837.24,-211.56C925.28,-210.38 1094.19,-202.36 1131.5,-159 1141.65,-147.21 1141.79,-135.67 1131.5,-124 1106.67,-95.82 829.09,-79.93 765.45,-76.64" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredCellsParams&#45;&gt;NNeighbourInterIntra -->
+<g class="edge" id="edge9">
+<title>FilteredCellsParams-&gt;NNeighbourInterIntra</title>
+<path d="M729.93,-201.3C716.75,-199.01 702.64,-196.74 689.5,-195 512.99,-171.59 466.39,-186.69 290.5,-159 268.94,-155.61 244.24,-149.56 229.8,-145.81" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOV -->
+<g class="node" id="node13">
+<title>ScoremapFOV</title>
+<g id="a_node13"><a xlink:title="→ MetaSession.proj(metasession_ref=&quot;metasession_name&quot;)→ ScoremapFOVParams→ FilteredCellsParams→ FilteredSessionsParams------------------------------bins_x=null          bins_y=null          aligned_metas        aligned_metas_shuff  no_sessions          no_shuffles          min_no_shuffles      ">
+<ellipse cx="1226.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="1226.5" y="-138.4">ScoremapFOV</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;ScoremapFOV -->
+<g class="edge" id="edge10">
+<title>FilteredCellsParams-&gt;ScoremapFOV</title>
+<path d="M837.17,-206.21C911.25,-198.44 1048.8,-182.27 1164.5,-159 1181.97,-155.49 1201.82,-149.92 1214.25,-146.24" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- CutoffsBorderScore -->
+<g class="node" id="node15">
+<title>CutoffsBorderScore</title>
+<g id="a_node15"><a xlink:title="→ FilteredSessions→ FilteredCellsParams------------------------------n_shuffles           borderscore_90=null  borderscore_95=null  borderscore_99=null  ">
+<ellipse cx="843.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="843.5" y="-138.4">CutoffsBorderScore</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;CutoffsBorderScore -->
+<g class="edge" id="edge11">
+<title>FilteredCellsParams-&gt;CutoffsBorderScore</title>
+<path d="M798.02,-194.8C809.68,-181.4 825.62,-163.06 835.2,-152.04" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- CutoffsMVL -->
+<g class="node" id="node18">
+<title>CutoffsMVL</title>
+<g id="a_node18"><a xlink:title="→ FilteredSessions→ FilteredCellsParams------------------------------n_shuffles           mvl_90=null          mvl_95=null          mvl_99=null          ">
+<ellipse cx="962.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="962.5" y="-138.4">CutoffsMVL</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;CutoffsMVL -->
+<g class="edge" id="edge12">
+<title>FilteredCellsParams-&gt;CutoffsMVL</title>
+<path d="M826.37,-194.97C867.13,-179.26 925.77,-156.66 950.64,-147.07" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- CutoffsBVScore -->
+<g class="node" id="node26">
+<title>CutoffsBVScore</title>
+<g id="a_node26"><a xlink:title="→ FilteredSessions→ FilteredCellsParams------------------------------n_shuffles           bvs_90=null          bvs_95=null          bvs_99=null          ">
+<ellipse cx="1071.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="1071.5" y="-138.4">CutoffsBVScore</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;CutoffsBVScore -->
+<g class="edge" id="edge13">
+<title>FilteredCellsParams-&gt;CutoffsBVScore</title>
+<path d="M837.3,-199.65C883.38,-189.35 951.45,-173.81 1010.5,-159 1027.31,-154.78 1046.61,-149.49 1058.92,-146.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- CutoffsInfoContent -->
+<g class="node" id="node28">
+<title>CutoffsInfoContent</title>
+<g id="a_node28"><a xlink:title="→ FilteredSessions→ FilteredCellsParams------------------------------n_shuffles           info_content_90=null info_content_95=null info_content_99=null ">
+<ellipse cx="480.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="480.5" y="-138.4">CutoffsInfoContent</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;CutoffsInfoContent -->
+<g class="edge" id="edge14">
+<title>FilteredCellsParams-&gt;CutoffsInfoContent</title>
+<path d="M730,-199.96C682.11,-189.54 610.03,-173.65 547.5,-159 528.37,-154.52 506.25,-149.01 492.83,-145.62" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredCells -->
+<g class="node" id="node29">
+<title>FilteredCells</title>
+<g id="a_node29"><a xlink:title="→ FilteredSessions→ Cell→ FilteredCellsParams------------------------------entry_time_filt_cells=CURRENT_TIMESTAMP ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="640,-159 557,-159 557,-124 640,-124 640,-159" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="middle" x="598.5" y="-138.4">FilteredCells</text>
+</a>
+</g>
+</g>
+<!-- FilteredCellsParams&#45;&gt;FilteredCells -->
+<g class="edge" id="edge15">
+<title>FilteredCellsParams-&gt;FilteredCells</title>
+<path d="M739.19,-194.97C709.15,-183.77 669.71,-169.06 640.23,-158.06" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FOVAlignmentParams -->
+<g class="node" id="node10">
+<title>FOVAlignmentParams</title>
+<g id="a_node10"><a xlink:title="fov_align_param_id   ------------------------------vector_y             vector_x             padding              ">
+<polygon fill="#000000" fill-opacity="0.125490" points="1242,-301 1127,-301 1127,-266 1242,-266 1242,-301" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="1135" y="-282">FOVAlignmentParams</text>
+</a>
+</g>
+</g>
+<!-- AlignmentFOV -->
+<g class="node" id="node23">
+<title>AlignmentFOV</title>
+<g id="a_node23"><a xlink:title="→ AlignmentPoints→ FOVAlignmentParams→ FOVProjParam------------------------------padded_ref           padded_align         padded_align_raw     ssim_original=null   ssim_warped=null     mse_original=null    mse_warped=null      transform            ">
+<ellipse cx="1302.5" cy="-212.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="1302.5" y="-209.4">AlignmentFOV</text>
+</a>
+</g>
+</g>
+<!-- FOVAlignmentParams&#45;&gt;AlignmentFOV -->
+<g class="edge" id="edge16">
+<title>FOVAlignmentParams-&gt;AlignmentFOV</title>
+<path d="M1212.76,-265.97C1238.13,-251.14 1274.01,-230.16 1291.73,-219.8" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOVParams -->
+<g class="node" id="node11">
+<title>ScoremapFOVParams</title>
+<g id="a_node11"><a xlink:title="binning_param_short  ------------------------------binning_param_set    bin_size_microns     ">
+<polygon fill="#000000" fill-opacity="0.125490" points="1198,-230 1081,-230 1081,-195 1198,-195 1198,-230" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="1089" y="-211">ScoremapFOVParams</text>
+</a>
+</g>
+</g>
+<!-- ScoremapFOVParams&#45;&gt;ScoremapFOV -->
+<g class="edge" id="edge17">
+<title>ScoremapFOVParams-&gt;ScoremapFOV</title>
+<path d="M1160.56,-194.8C1178.26,-180.76 1202.79,-161.3 1216.39,-150.52" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOV&#45;&gt;1569 -->
+<g class="edge" id="edge18">
+<title>ScoremapFOV-&gt;1569</title>
+<path d="M1226.5,-128.37C1226.5,-112.02 1226.5,-84.19 1226.5,-77.48" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOV&#45;&gt;1570 -->
+<g class="edge" id="edge19">
+<title>ScoremapFOV-&gt;1570</title>
+<path d="M1220.39,-129.85C1211.19,-113.82 1194.44,-84.61 1190.4,-77.56" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOVMoran -->
+<g class="node" id="node24">
+<title>ScoremapFOVMoran</title>
+<g id="a_node24"><a xlink:title="→ ScoremapFOV→ ScoremapFOVProjParams------------------------------moran_i=null         moran_i_shuffles=null moran_i_95=null      moran_i_99=null      moran_i_5=null       moran_i_1=null       ">
+<ellipse cx="592.5" cy="-75" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="592.5" y="-71.9">ScoremapFOVMoran</text>
+</a>
+</g>
+</g>
+<!-- ScoremapFOV&#45;&gt;ScoremapFOVMoran -->
+<g class="edge" id="edge20">
+<title>ScoremapFOV-&gt;ScoremapFOVMoran</title>
+<path d="M1213.95,-137.95C1195.83,-134.35 1161.22,-127.79 1131.5,-124 936.87,-99.19 886.71,-107.81 691.5,-88 660.5,-84.85 624.15,-80.2 605.3,-77.71" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- RoisCorrBrainLoc -->
+<g class="node" id="node14">
+<title>RoisCorrBrainLoc</title>
+<g id="a_node14"><a xlink:title="→ AnatomicalMask→ RoisCorr">
+<ellipse cx="1546.5" cy="-141.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="1546.5" y="-138.4">RoisCorrBrainLoc</text>
+</a>
+</g>
+</g>
+<!-- FOVProjParam -->
+<g class="node" id="node16">
+<title>FOVProjParam</title>
+<g id="a_node16"><a xlink:title="projection_short     ------------------------------projection_key       ">
+<polygon fill="#000000" fill-opacity="0.125490" points="1344.5,-301 1260.5,-301 1260.5,-266 1344.5,-266 1344.5,-301" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="1268.5" y="-282">FOVProjParam</text>
+</a>
+</g>
+</g>
+<!-- FOVProjParam&#45;&gt;AlignmentFOV -->
+<g class="edge" id="edge21">
+<title>FOVProjParam-&gt;AlignmentFOV</title>
+<path d="M1302.5,-265.8C1302.5,-253.35 1302.5,-236.66 1302.5,-225.51" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessionsParams -->
+<g class="node" id="node17">
+<title>FilteredSessionsParams</title>
+<g id="a_node17"><a xlink:title="param_hash_session   ------------------------------restriction_dict_session ">
+<polygon fill="#000000" fill-opacity="0.125490" points="900,-301 775,-301 775,-266 900,-266 900,-301" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="783" y="-282">FilteredSessionsParams</text>
+</a>
+</g>
+</g>
+<!-- FilteredSessionsParams&#45;&gt;ScoremapFOV -->
+<g class="edge" id="edge22">
+<title>FilteredSessionsParams-&gt;ScoremapFOV</title>
+<path d="M900.16,-281.9C993.55,-279.66 1162.98,-270.03 1206.5,-230 1227.72,-210.48 1228.71,-173.48 1227.63,-154.45" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions -->
+<g class="node" id="node22">
+<title>FilteredSessions</title>
+<g id="a_node22"><a xlink:title="→ Tracking.proj(tracking_dataset=&quot;dataset_name&quot;)→ FilteredSessionsParams------------------------------entry_time_filt_sessions=CURRENT_TIMESTAMP ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="681,-230 576,-230 576,-195 681,-195 681,-230" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="middle" x="628.5" y="-209.4">FilteredSessions</text>
+</a>
+</g>
+</g>
+<!-- FilteredSessionsParams&#45;&gt;FilteredSessions -->
+<g class="edge" id="edge23">
+<title>FilteredSessionsParams-&gt;FilteredSessions</title>
+<path d="M787.44,-265.97C754.47,-255.09 711.47,-240.89 678.51,-230.01" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- PairwDistParams -->
+<g class="node" id="node19">
+<title>PairwDistParams</title>
+<g id="a_node19"><a xlink:title="pairwise_dist_param  ------------------------------score                score_cutoff         scoretables          ">
+<polygon fill="#000000" fill-opacity="0.125490" points="301,-301 208,-301 208,-266 301,-266 301,-301" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="216" y="-282">PairwDistParams</text>
+</a>
+</g>
+</g>
+<!-- PairwDistParams&#45;&gt;1565 -->
+<g class="edge" id="edge25">
+<title>PairwDistParams-&gt;1565</title>
+<path d="M245.54,-265.8C235.96,-247.93 221.68,-221.29 218.26,-214.91" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- PairwDistParams&#45;&gt;1564 -->
+<g class="edge" id="edge24">
+<title>PairwDistParams-&gt;1564</title>
+<path d="M254.5,-265.8C254.5,-247.93 254.5,-221.29 254.5,-214.91" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- PairwDistParams&#45;&gt;PairwDist -->
+<g class="edge" id="edge26">
+<title>PairwDistParams-&gt;PairwDist</title>
+<path d="M263.87,-265.89C280.3,-236.77 313.86,-177.31 327.51,-153.11" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- AnatomicalMaskParams -->
+<g class="node" id="node21">
+<title>AnatomicalMaskParams</title>
+<g id="a_node21"><a xlink:title="timestamp_mask_lookup=CURRENT_TIMESTAMP ------------------------------mec_label            pas_label=null       rsa_label=null       prh_label=null       ">
+<polygon fill="#000000" fill-opacity="0.125490" points="1608.5,-301 1484.5,-301 1484.5,-266 1608.5,-266 1608.5,-301" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="1492.5" y="-282">AnatomicalMaskParams</text>
+</a>
+</g>
+</g>
+<!-- AnatomicalMask -->
+<g class="node" id="node30">
+<title>AnatomicalMask</title>
+<g id="a_node30"><a xlink:title="→ ProjectionCorr------------------------------→ AnatomicalMaskParamsanat_mask            ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="1599,-230 1494,-230 1494,-195 1599,-195 1599,-230" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="middle" x="1546.5" y="-209.4">AnatomicalMask</text>
+</a>
+</g>
+</g>
+<!-- AnatomicalMaskParams&#45;&gt;AnatomicalMask -->
+<g class="edge" id="edge27">
+<title>AnatomicalMaskParams-&gt;AnatomicalMask</title>
+<path d="M1546.5,-265.8C1546.5,-254.95 1546.5,-240.87 1546.5,-230.05" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;1563 -->
+<g class="edge" id="edge28">
+<title>FilteredSessions-&gt;1563</title>
+<path d="M575.67,-205.7C530.58,-199.13 465.03,-185.65 413.5,-159 405.43,-154.83 397.93,-146.54 395.4,-143.58" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;CutoffsGridscore -->
+<g class="edge" id="edge29">
+<title>FilteredSessions-&gt;CutoffsGridscore</title>
+<path d="M648.59,-194.8C665.48,-180.76 688.88,-161.3 701.86,-150.52" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;PairwDist -->
+<g class="edge" id="edge30">
+<title>FilteredSessions-&gt;PairwDist</title>
+<path d="M575.52,-203.2C523.88,-194.49 443.43,-179.23 375.5,-159 364.99,-155.87 353.41,-151.23 345.08,-147.66" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;NNeighbourInterIntra -->
+<g class="edge" id="edge31">
+<title>FilteredSessions-&gt;NNeighbourInterIntra</title>
+<path d="M575.91,-204.46C509.27,-195.29 390.98,-178.14 290.5,-159 269.18,-154.94 244.61,-149.16 230.11,-145.62" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;CutoffsBorderScore -->
+<g class="edge" id="edge32">
+<title>FilteredSessions-&gt;CutoffsBorderScore</title>
+<path d="M680,-194.97C730.19,-178.87 802.97,-155.51 831.44,-146.37" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;CutoffsMVL -->
+<g class="edge" id="edge33">
+<title>FilteredSessions-&gt;CutoffsMVL</title>
+<path d="M681.12,-202.01C760.35,-187.68 902.31,-161.9 913.5,-159 926.36,-155.67 940.73,-150.67 950.56,-147.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;CutoffsBVScore -->
+<g class="edge" id="edge34">
+<title>FilteredSessions-&gt;CutoffsBVScore</title>
+<path d="M681.45,-201.5C694.21,-199.23 707.83,-196.92 720.5,-195 848.91,-175.53 883.05,-184.02 1010.5,-159 1027.51,-155.66 1046.76,-150.16 1059,-146.43" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;CutoffsInfoContent -->
+<g class="edge" id="edge35">
+<title>FilteredSessions-&gt;CutoffsInfoContent</title>
+<path d="M593.05,-194.97C560.21,-179.66 513.32,-157.8 491.93,-147.83" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSessions&#45;&gt;FilteredCells -->
+<g class="edge" id="edge36">
+<title>FilteredSessions-&gt;FilteredCells</title>
+<path d="M621.24,-194.8C616.52,-183.95 610.4,-169.87 605.7,-159.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOVProjParams -->
+<g class="node" id="node25">
+<title>ScoremapFOVProjParams</title>
+<g id="a_node25"><a xlink:title="proj_param_id        ------------------------------proj_statistic       proj_sigma           ">
+<polygon fill="#000000" fill-opacity="0.125490" points="135,-159 0,-159 0,-124 135,-124 135,-159" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="8" y="-140">ScoremapFOVProjParams</text>
+</a>
+</g>
+</g>
+<!-- ScoremapFOVProjParams&#45;&gt;ScoremapCorr -->
+<g class="edge" id="edge37">
+<title>ScoremapFOVProjParams-&gt;ScoremapCorr</title>
+<path d="M135.01,-125.66C137.88,-125.09 140.72,-124.53 143.5,-124 309.43,-92.29 350.74,-81.83 518.5,-62 782.36,-30.82 1107.16,-17.15 1176.21,-14.49" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ScoremapFOVProjParams&#45;&gt;ScoremapFOVMoran -->
+<g class="edge" id="edge38">
+<title>ScoremapFOVProjParams-&gt;ScoremapFOVMoran</title>
+<path d="M135.38,-125.38C138.12,-124.89 140.83,-124.43 143.5,-124 231.15,-109.84 515.18,-83.16 579.48,-77.2" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- AlignmentPoints -->
+<g class="node" id="node27">
+<title>AlignmentPoints</title>
+<g id="a_node27"><a xlink:title="→ MetaSession.proj(metasession_ref=&quot;metasession_name&quot;)→ MetaSession.proj(metasession_align=&quot;metasession_name&quot;)------------------------------projection_table     num_points           points_ref           points_align         transform_method     entry_time_align_points=CURRENT_TIMESTAMP ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="1466,-301 1363,-301 1363,-266 1466,-266 1466,-301" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="middle" x="1414.5" y="-280.4">AlignmentPoints</text>
+</a>
+</g>
+</g>
+<!-- AlignmentPoints&#45;&gt;AlignmentFOV -->
+<g class="edge" id="edge39">
+<title>AlignmentPoints-&gt;AlignmentFOV</title>
+<path d="M1387.67,-265.97C1363.86,-251.3 1330.28,-230.61 1313.27,-220.14" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- AnatomicalMask&#45;&gt;RoisCorrBrainLoc -->
+<g class="edge" id="edge40">
+<title>AnatomicalMask-&gt;RoisCorrBrainLoc</title>
+<path d="M1546.5,-194.8C1546.5,-182.35 1546.5,-165.66 1546.5,-154.51" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+</g>
+</svg>

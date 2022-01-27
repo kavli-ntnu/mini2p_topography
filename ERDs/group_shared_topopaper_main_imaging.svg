@@ -1,0 +1,735 @@
+<svg height="754pt" viewBox="0.00 0.00 914.00 754.00" width="914pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" id="graph0" transform="scale(1 1) rotate(0) translate(4 750)">
+<polygon fill="white" points="-4,4 -4,-750 910,-750 910,4 -4,4" stroke="transparent"/>
+<!-- 1348 -->
+<g class="node" id="node1">
+<title>1348</title>
+<ellipse cx="229" cy="-199" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="229" y="-198.7">1348</text>
+</g>
+<!-- Shuffled -->
+<g class="node" id="node25">
+<title>Shuffled</title>
+<g id="a_node25"><a xlink:title="→ FilteredSpikes.proj(signal_dataset=&quot;dataset_name&quot;)→ Tracking.OpenField.proj(tracking_dataset=&quot;dataset_name&quot;)→ ShuffleParams→ SignalTrackingParams→ Occupancy.proj(tracking_dataset=&quot;dataset_name&quot;)→ MapParams→ FieldParams→ AngularOccupancy.proj(tracking_dataset=&quot;dataset_name&quot;)→ AngularParams→ GridParams→ BorderParams------------------------------→ [nullable] Sync.proj(sync_dataset_frames_imaging=&quot;dataset_name&quot;,sync_name_frames_imaging=&quot;sync_name&quot;)number_shuffles      shuffling_offsets    ">
+<ellipse cx="297" cy="-137" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="297" y="-133.9">Shuffled</text>
+</a>
+</g>
+</g>
+<!-- 1348&#45;&gt;Shuffled -->
+<g class="edge" id="edge1">
+<title>1348-&gt;Shuffled</title>
+<path d="M229.96,-197.15C236.16,-191.68 270.77,-161.14 287.69,-146.22" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1350 -->
+<g class="node" id="node2">
+<title>1350</title>
+<ellipse cx="403" cy="-265.5" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="403" y="-265.2">1350</text>
+</g>
+<!-- SignalTracking -->
+<g class="node" id="node24">
+<title>SignalTracking</title>
+<g id="a_node24"><a xlink:title="→ FilteredSpikes.proj(signal_dataset=&quot;dataset_name&quot;)→ Tracking.OpenField.proj(tracking_dataset=&quot;dataset_name&quot;)→ SignalTrackingParamssignal_type          ------------------------------→ [nullable] Sync.proj(sync_dataset_frames_imaging=&quot;dataset_name&quot;,sync_name_frames_imaging=&quot;sync_name&quot;)signal               x_pos_signal         y_pos_signal         speed_signal         head_angle_signal    ">
+<ellipse cx="430" cy="-137" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="390.5" y="-134.9">SignalTracking</text>
+</a>
+</g>
+</g>
+<!-- 1350&#45;&gt;SignalTracking -->
+<g class="edge" id="edge2">
+<title>1350-&gt;SignalTracking</title>
+<path d="M403.3,-263.08C405.67,-252 421.22,-179.15 427.44,-150.01" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1342 -->
+<g class="node" id="node3">
+<title>1342</title>
+<ellipse cx="219" cy="-137" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="219" y="-136.7">1342</text>
+</g>
+<!-- AngularRate -->
+<g class="node" id="node11">
+<title>AngularRate</title>
+<g id="a_node11"><a xlink:title="→ SignalTracking→ AngularOccupancy.proj(tracking_dataset=&quot;dataset_name&quot;)------------------------------angular_rate         angular_rate_raw     binned_raw_angular   bin_max_angular=null max_angular=null     ">
+<ellipse cx="288" cy="-75" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="288" y="-71.9">AngularRate</text>
+</a>
+</g>
+</g>
+<!-- 1342&#45;&gt;AngularRate -->
+<g class="edge" id="edge3">
+<title>1342-&gt;AngularRate</title>
+<path d="M219.98,-135.15C226.27,-129.68 261.38,-99.14 278.55,-84.22" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1351 -->
+<g class="node" id="node4">
+<title>1351</title>
+<ellipse cx="459" cy="-199" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="459" y="-198.7">1351</text>
+</g>
+<!-- 1351&#45;&gt;SignalTracking -->
+<g class="edge" id="edge4">
+<title>1351-&gt;SignalTracking</title>
+<path d="M458.5,-196.96C455.79,-191.36 442.8,-164.48 435.33,-149.02" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1345 -->
+<g class="node" id="node5">
+<title>1345</title>
+<ellipse cx="383" cy="-199" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="383" y="-198.7">1345</text>
+</g>
+<!-- 1345&#45;&gt;Shuffled -->
+<g class="edge" id="edge5">
+<title>1345-&gt;Shuffled</title>
+<path d="M381.78,-197.15C373.78,-191.57 328.33,-159.86 307.47,-145.3" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1344 -->
+<g class="node" id="node6">
+<title>1344</title>
+<ellipse cx="504" cy="-199" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="504" y="-198.7">1344</text>
+</g>
+<!-- 1344&#45;&gt;Shuffled -->
+<g class="edge" id="edge6">
+<title>1344-&gt;Shuffled</title>
+<path d="M502.57,-197.26C498.6,-195.23 487.08,-189.5 477,-186 415.9,-164.79 398.26,-167.52 336,-150 327,-147.47 316.91,-144.36 309.25,-141.94" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1346 -->
+<g class="node" id="node7">
+<title>1346</title>
+<ellipse cx="271" cy="-265.5" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="271" y="-265.2">1346</text>
+</g>
+<!-- 1346&#45;&gt;Shuffled -->
+<g class="edge" id="edge7">
+<title>1346-&gt;Shuffled</title>
+<path d="M271.29,-263.08C273.57,-252 288.54,-179.15 294.53,-150.01" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1349 -->
+<g class="node" id="node8">
+<title>1349</title>
+<ellipse cx="545" cy="-199" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="545" y="-198.7">1349</text>
+</g>
+<!-- 1349&#45;&gt;SignalTracking -->
+<g class="edge" id="edge8">
+<title>1349-&gt;SignalTracking</title>
+<path d="M543.71,-197.33C533.69,-192.1 468.06,-157.86 441.32,-143.9" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1347 -->
+<g class="node" id="node9">
+<title>1347</title>
+<ellipse cx="307" cy="-199" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="307" y="-198.7">1347</text>
+</g>
+<!-- 1347&#45;&gt;Shuffled -->
+<g class="edge" id="edge9">
+<title>1347-&gt;Shuffled</title>
+<path d="M306.83,-196.96C305.91,-191.48 301.61,-165.67 299.01,-150.07" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- 1343 -->
+<g class="node" id="node10">
+<title>1343</title>
+<ellipse cx="355" cy="-137" fill="#ff8800" fill-opacity="0.501961" rx="2" ry="2" stroke="#ff8800" stroke-opacity="0.501961"/>
+<text fill="#ff8800" fill-opacity="0.501961" font-family="arial" font-size="1.00" text-anchor="middle" x="355" y="-136.7">1343</text>
+</g>
+<!-- Ratemap -->
+<g class="node" id="node39">
+<title>Ratemap</title>
+<g id="a_node39"><a xlink:title="→ SignalTracking→ Occupancy.proj(tracking_dataset=&quot;dataset_name&quot;)→ FieldParams------------------------------ratemap              ratemap_raw          mask_rm              binned_raw           bin_max              max                  no_fields=null       fields_map=null      ">
+<ellipse cx="392" cy="-75" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="392" y="-71.9">Ratemap</text>
+</a>
+</g>
+</g>
+<!-- 1343&#45;&gt;Ratemap -->
+<g class="edge" id="edge10">
+<title>1343-&gt;Ratemap</title>
+<path d="M355.64,-134.96C359.14,-129.29 376.04,-101.88 385.52,-86.51" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Tracking -->
+<g class="node" id="node12">
+<title>Tracking</title>
+<g id="a_node12"><a xlink:title="→ TrackingRaw→ TrackingParams------------------------------sample_rate          entry_time_tracking=CURRENT_TIMESTAMP ">
+<ellipse cx="293" cy="-394" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="293" y="-390.9">Tracking</text>
+</a>
+</g>
+</g>
+<!-- Tracking.OpenField -->
+<g class="node" id="node49">
+<title>Tracking.OpenField</title>
+<g id="a_node49"><a xlink:title="→ Tracking------------------------------calibration          x_pos                y_pos                boundary_left        boundary_right       boundary_bottom      boundary_top         speed                head_angle           timestamps           ">
+<polygon fill="transparent" points="344.5,-341.5 241.5,-341.5 241.5,-322.5 344.5,-322.5 344.5,-341.5" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="293" y="-329.5">Tracking.OpenField</text>
+</a>
+</g>
+</g>
+<!-- Tracking&#45;&gt;Tracking.OpenField -->
+<g class="edge" id="edge11">
+<title>Tracking-&gt;Tracking.OpenField</title>
+<path d="M293,-380.86C293,-369.22 293,-351.93 293,-341.63" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- Tif -->
+<g class="node" id="node13">
+<title>Tif</title>
+<g id="a_node13"><a xlink:title="→ Session.Data------------------------------motion_cor           num_frames           width                height               datatype             config               bigtiff              mean_image           ">
+<ellipse cx="441" cy="-531.5" fill="#00007f" fill-opacity="0.250980" rx="18.25" ry="17.5" stroke="#00007f" stroke-opacity="0.250980"/>
+<text fill="#00007f" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="441" y="-528.4">Tif</text>
+</a>
+</g>
+</g>
+<!-- MetaSession.Suite2pyOps -->
+<g class="node" id="node14">
+<title>MetaSession.Suite2pyOps</title>
+<g id="a_node14"><a xlink:title="→ MetaSession------------------------------→ Suite2pyOps">
+<polygon fill="transparent" points="535,-667 401,-667 401,-648 535,-648 535,-667" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="468" y="-655">MetaSession.Suite2pyOps</text>
+</a>
+</g>
+</g>
+<!-- Cell.Spikes -->
+<g class="node" id="node15">
+<title>Cell.Spikes</title>
+<g id="a_node15"><a xlink:title="→ Cell.Traces------------------------------spikes               ">
+<polygon fill="transparent" points="588.5,-341.5 521.5,-341.5 521.5,-322.5 588.5,-322.5 588.5,-341.5" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="555" y="-329.5">Cell.Spikes</text>
+</a>
+</g>
+</g>
+<!-- FilteredSpikes -->
+<g class="node" id="node46">
+<title>FilteredSpikes</title>
+<g id="a_node46"><a xlink:title="→ Cell.Spikes→ SpikeFilterParams------------------------------filtered_spikes      spike_threshold      entry_time=CURRENT_TIMESTAMP ">
+<ellipse cx="548" cy="-265.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="548" y="-262.4">FilteredSpikes</text>
+</a>
+</g>
+</g>
+<!-- Cell.Spikes&#45;&gt;FilteredSpikes -->
+<g class="edge" id="edge12">
+<title>Cell.Spikes-&gt;FilteredSpikes</title>
+<path d="M554.06,-322.3C552.83,-311.02 550.69,-291.29 549.31,-278.57" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Occupancy -->
+<g class="node" id="node16">
+<title>Occupancy</title>
+<g id="a_node16"><a xlink:title="→ Tracking.OpenField→ SignalTrackingParams→ MapParams------------------------------occupancy            mask_occ             occupancy_raw        explor_ratio         explor_std           x_edges              y_edges              occupancy_time       fraction_occupancy   ">
+<ellipse cx="337" cy="-265.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="337" y="-262.4">Occupancy</text>
+</a>
+</g>
+</g>
+<!-- Occupancy&#45;&gt;1347 -->
+<g class="edge" id="edge14">
+<title>Occupancy-&gt;1347</title>
+<path d="M331.77,-253.26C324.25,-237.1 310.93,-208.44 307.71,-201.53" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Occupancy&#45;&gt;1343 -->
+<g class="edge" id="edge13">
+<title>Occupancy-&gt;1343</title>
+<path d="M338.73,-252.37C342.91,-222.93 353.38,-149.38 354.83,-139.18" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Projection -->
+<g class="node" id="node17">
+<title>Projection</title>
+<g id="a_node17"><a xlink:title="→ ImagingAnalysiscenter_plane         ------------------------------mean_image           mean_image_enhanced  mean_image_ref       max_img              vcorr_image          vmap_image           mean_image_second    mean_image_second_corr x_range              y_range              entry_time_projection=CURRENT_TIMESTAMP ">
+<ellipse cx="708" cy="-460.5" fill="#00007f" fill-opacity="0.250980" rx="43.5" ry="17.5" stroke="#00007f" stroke-opacity="0.250980"/>
+<text fill="#00007f" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="681" y="-458.4">Projection</text>
+</a>
+</g>
+</g>
+<!-- ProjectionCorr -->
+<g class="node" id="node48">
+<title>ProjectionCorr</title>
+<g id="a_node48"><a xlink:title="→ ImagingFOV→ Projection------------------------------width_microns_full   height_microns_full  width_microns_eff    height_microns_eff   mean_image_corr      mean_image_enhanced_corr mean_image_ref_corr  max_img_corr=null    vcorr_image_corr=null vmap_image_corr=null mean_image_second_corr=null mean_image_second_corr_corr=null x_range_microns_full y_range_microns_full x_range_microns_eff  y_range_microns_eff  ">
+<ellipse cx="752" cy="-394" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="752" y="-390.9">ProjectionCorr</text>
+</a>
+</g>
+</g>
+<!-- Projection&#45;&gt;ProjectionCorr -->
+<g class="edge" id="edge15">
+<title>Projection-&gt;ProjectionCorr</title>
+<path d="M719.1,-443.22C727.25,-431.28 738.06,-415.43 745.03,-405.22" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- MetaSession -->
+<g class="node" id="node18">
+<title>MetaSession</title>
+<g id="a_node18"><a xlink:title="metasession_name     ------------------------------entry_time=CURRENT_TIMESTAMP ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="648,-746 562,-746 562,-711 648,-711 648,-746" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="570" y="-726.4">MetaSession</text>
+</a>
+</g>
+</g>
+<!-- MetaSession&#45;&gt;MetaSession.Suite2pyOps -->
+<g class="edge" id="edge16">
+<title>MetaSession-&gt;MetaSession.Suite2pyOps</title>
+<path d="M572.19,-710.97C544.8,-697.18 506.85,-678.06 485.12,-667.12" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- Session -->
+<g class="node" id="node26">
+<title>Session</title>
+<g id="a_node26"><a xlink:title="→ MetaSessionsession_order        session_name         ------------------------------→ Animalanimal_name          timestamp=CURRENT_TIMESTAMP combined             timeseries_name=&quot;&quot;   → ExperimentType→ User">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="382.5,-675 323.5,-675 323.5,-640 382.5,-640 382.5,-675" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="331.5" y="-655.4">Session</text>
+</a>
+</g>
+</g>
+<!-- MetaSession&#45;&gt;Session -->
+<g class="edge" id="edge17">
+<title>MetaSession-&gt;Session</title>
+<path d="M561.59,-718.91C518.14,-709.83 449.64,-694.16 392,-675 388.93,-673.98 385.76,-672.82 382.62,-671.61" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- MetaSession.Scope -->
+<g class="node" id="node32">
+<title>MetaSession.Scope</title>
+<g id="a_node32"><a xlink:title="→ MetaSession------------------------------→ Scope">
+<polygon fill="transparent" points="779.5,-667 674.5,-667 674.5,-648 779.5,-648 779.5,-667" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="727" y="-655">MetaSession.Scope</text>
+</a>
+</g>
+</g>
+<!-- MetaSession&#45;&gt;MetaSession.Scope -->
+<g class="edge" id="edge18">
+<title>MetaSession-&gt;MetaSession.Scope</title>
+<path d="M634.22,-710.97C658.61,-697.18 692.41,-678.06 711.76,-667.12" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- MetaSession.Setup -->
+<g class="node" id="node42">
+<title>MetaSession.Setup</title>
+<g id="a_node42"><a xlink:title="→ MetaSession------------------------------→ Setup">
+<polygon fill="transparent" points="656.5,-667 553.5,-667 553.5,-648 656.5,-648 656.5,-667" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="605" y="-655">MetaSession.Setup</text>
+</a>
+</g>
+</g>
+<!-- MetaSession&#45;&gt;MetaSession.Setup -->
+<g class="edge" id="edge19">
+<title>MetaSession-&gt;MetaSession.Setup</title>
+<path d="M605,-710.8C605,-697.08 605,-678.19 605,-667.27" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- AngularOccupancy -->
+<g class="node" id="node19">
+<title>AngularOccupancy</title>
+<g id="a_node19"><a xlink:title="→ Tracking.OpenField→ AngularParams→ SignalTrackingParams------------------------------angular_occupancy    angular_occupancy_raw angle_edges          angle_centers        ">
+<ellipse cx="184" cy="-265.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="184" y="-262.4">AngularOccupancy</text>
+</a>
+</g>
+</g>
+<!-- AngularOccupancy&#45;&gt;1348 -->
+<g class="edge" id="edge21">
+<title>AngularOccupancy-&gt;1348</title>
+<path d="M191.03,-254.42C202.5,-237.98 224.37,-206.64 228.36,-200.91" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- AngularOccupancy&#45;&gt;1342 -->
+<g class="edge" id="edge20">
+<title>AngularOccupancy-&gt;1342</title>
+<path d="M187.23,-252.83C195.29,-223.71 215.82,-149.49 218.67,-139.19" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Setup -->
+<g class="node" id="node20">
+<title>Setup</title>
+<g id="a_node20"><a xlink:title="setup_name           setup_timestamp      ------------------------------→ ExperimentType">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="761,-746 713,-746 713,-711 761,-711 761,-746" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="721" y="-726.4">Setup</text>
+</a>
+</g>
+</g>
+<!-- ImagingFOVRaw -->
+<g class="node" id="node37">
+<title>ImagingFOVRaw</title>
+<g id="a_node37"><a xlink:title="→ Setup→ Scopezoom                 ------------------------------grid_spacing_microns grid_picture=null    original_points      transformed_points   entry_time_imaging_fov=CURRENT_TIMESTAMP ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="906,-675 798,-675 798,-640 906,-640 906,-675" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="middle" x="852" y="-654.4">ImagingFOVRaw</text>
+</a>
+</g>
+</g>
+<!-- Setup&#45;&gt;ImagingFOVRaw -->
+<g class="edge" id="edge22">
+<title>Setup-&gt;ImagingFOVRaw</title>
+<path d="M761.11,-713.04C779.55,-701.97 805,-686.7 824.29,-675.13" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Setup&#45;&gt;MetaSession.Setup -->
+<g class="edge" id="edge23">
+<title>Setup-&gt;MetaSession.Setup</title>
+<path d="M712.79,-714.84C686.29,-700.99 644.53,-679.16 621.54,-667.15" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ArenaObjectPos -->
+<g class="node" id="node21">
+<title>ArenaObjectPos</title>
+<g id="a_node21"><a xlink:title="object_hash          ------------------------------→ Session.ArenaObject→ Tracking.OpenFieldobj_x_coord_calib=null obj_y_coord_calib=null ">
+<ellipse cx="55" cy="-265.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="11" y="-263.4">ArenaObjectPos</text>
+</a>
+</g>
+</g>
+<!-- SNR -->
+<g class="node" id="node22">
+<title>SNR</title>
+<g id="a_node22"><a xlink:title="→ Cell.Traces→ FilteredSpikes→ NoiseCalcParams------------------------------snr_df_f=null        snr_f_corr=null      noise_indices=null   noise_df_f=null      noise_f_corr=null    noise_std=null       noise_std_half1=null noise_std_half2=null noise_med_half1=null noise_med_half2=null noise_ratio=null     noise_slope=null     t_value=null         p_value=null         entry_time=CURRENT_TIMESTAMP ">
+<ellipse cx="609" cy="-199" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="609" y="-195.9">SNR</text>
+</a>
+</g>
+</g>
+<!-- RoisCorr -->
+<g class="node" id="node23">
+<title>RoisCorr</title>
+<g id="a_node23"><a xlink:title="→ ImagingFOV→ Cell.Rois------------------------------npix_corr            center_x_corr        center_y_corr        xpix_corr            ypix_corr            lambda_corr          compress_ratio       center_plane=null    ">
+<ellipse cx="743" cy="-332" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="743" y="-328.9">RoisCorr</text>
+</a>
+</g>
+</g>
+<!-- SignalTracking&#45;&gt;AngularRate -->
+<g class="edge" id="edge24">
+<title>SignalTracking-&gt;AngularRate</title>
+<path d="M418.38,-131.09C391.75,-119.84 326.56,-92.29 299.78,-80.98" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- SignalTracking&#45;&gt;Ratemap -->
+<g class="edge" id="edge25">
+<title>SignalTracking-&gt;Ratemap</title>
+<path d="M423.38,-125.55C416.41,-114.54 405.49,-97.3 398.54,-86.33" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Session.SessionType -->
+<g class="node" id="node27">
+<title>Session.SessionType</title>
+<g id="a_node27"><a xlink:title="→ Session→ SessionType------------------------------note=&quot;&quot;              ">
+<polygon fill="transparent" points="521,-604 409,-604 409,-585 521,-585 521,-604" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="465" y="-592">Session.SessionType</text>
+</a>
+</g>
+</g>
+<!-- Session&#45;&gt;Session.SessionType -->
+<g class="edge" id="edge26">
+<title>Session-&gt;Session.SessionType</title>
+<path d="M382.72,-640.31C404.11,-628.67 432.1,-613.42 449.31,-604.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Session.Apparatus -->
+<g class="node" id="node33">
+<title>Session.Apparatus</title>
+<g id="a_node33"><a xlink:title="→ Session→ Apparatus">
+<polygon fill="transparent" points="297,-604 197,-604 197,-585 297,-585 297,-604" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="247" y="-592">Session.Apparatus</text>
+</a>
+</g>
+</g>
+<!-- Session&#45;&gt;Session.Apparatus -->
+<g class="edge" id="edge27">
+<title>Session-&gt;Session.Apparatus</title>
+<path d="M324.31,-639.99C304.2,-628.42 278.13,-613.41 261.99,-604.12" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Session.Data -->
+<g class="node" id="node34">
+<title>Session.Data</title>
+<g id="a_node34"><a xlink:title="→ Session→ Dataset">
+<polygon fill="transparent" points="391,-604 315,-604 315,-585 391,-585 391,-604" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="353" y="-592">Session.Data</text>
+</a>
+</g>
+</g>
+<!-- Session&#45;&gt;Session.Data -->
+<g class="edge" id="edge28">
+<title>Session-&gt;Session.Data</title>
+<path d="M353,-639.83C353,-628.26 353,-613.32 353,-604.08" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Cell.Rois -->
+<g class="node" id="node28">
+<title>Cell.Rois</title>
+<g id="a_node28"><a xlink:title="→ Cell------------------------------npix=null            center_x             center_y             xpix                 ypix                 lambda               mrs=null             mrs0=null            compact=null         footprint=null       isoverlap            aspect_ratio=null    ipix_neuropil        skew=null            std=null             ellipse              radius=null          noiselevel=null      cell_prob=null       redcell=null         redcell_prob=null    center_plane=0       neuropil_mask=null   cell_solidity=null   npix_norm=null       npix_norm_no_crop=null soma_crop=null       npix_soma=null       ">
+<polygon fill="transparent" points="687.5,-403.5 630.5,-403.5 630.5,-384.5 687.5,-384.5 687.5,-403.5" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="659" y="-391.5">Cell.Rois</text>
+</a>
+</g>
+</g>
+<!-- Cell.Rois&#45;&gt;RoisCorr -->
+<g class="edge" id="edge29">
+<title>Cell.Rois-&gt;RoisCorr</title>
+<path d="M671.04,-384.4C687.64,-372.54 717.28,-351.37 732.83,-340.26" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Cell -->
+<g class="node" id="node29">
+<title>Cell</title>
+<g id="a_node29"><a xlink:title="→ ImagingAnalysiscell_id              ------------------------------entry_time=CURRENT_TIMESTAMP ">
+<ellipse cx="594" cy="-460.5" fill="#00007f" fill-opacity="0.250980" rx="23.25" ry="17.5" stroke="#00007f" stroke-opacity="0.250980"/>
+<text fill="#00007f" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="583.5" y="-458.4">Cell</text>
+</a>
+</g>
+</g>
+<!-- Cell&#45;&gt;Cell.Rois -->
+<g class="edge" id="edge30">
+<title>Cell-&gt;Cell.Rois</title>
+<path d="M607.47,-446.14C620.26,-433.44 639.12,-414.72 650.13,-403.8" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- Cell.Traces -->
+<g class="node" id="node45">
+<title>Cell.Traces</title>
+<g id="a_node45"><a xlink:title="→ Cellchannel              ------------------------------samples=null         neuropil_coef=null   fluo                 neuropil             fcorr                df_f                 ">
+<polygon fill="transparent" points="612.5,-403.5 545.5,-403.5 545.5,-384.5 612.5,-384.5 612.5,-403.5" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="553.5" y="-392.5">Cell.Traces</text>
+</a>
+</g>
+</g>
+<!-- Cell&#45;&gt;Cell.Traces -->
+<g class="edge" id="edge31">
+<title>Cell-&gt;Cell.Traces</title>
+<path d="M590.21,-443.22C587.3,-430.68 583.38,-413.83 581.03,-403.73" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- User -->
+<g class="node" id="node30">
+<title>User</title>
+<g id="a_node30"><a xlink:title="username             ------------------------------email                first_name           last_name            entry_time=CURRENT_TIMESTAMP is_active            is_staff             is_superuser         ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="374,-746 332,-746 332,-711 374,-711 374,-746" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="340" y="-726.4">User</text>
+</a>
+</g>
+</g>
+<!-- User&#45;&gt;Session -->
+<g class="edge" id="edge32">
+<title>User-&gt;Session</title>
+<path d="M353,-710.8C353,-699.95 353,-685.87 353,-675.05" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- GridScore -->
+<g class="node" id="node31">
+<title>GridScore</title>
+<g id="a_node31"><a xlink:title="→ Ratemap→ FieldParams→ GridParams------------------------------gridscore=null       acorr=null           ">
+<ellipse cx="344" cy="-13" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="344" y="-9.9">GridScore</text>
+</a>
+</g>
+</g>
+<!-- Session.ArenaObject -->
+<g class="node" id="node50">
+<title>Session.ArenaObject</title>
+<g id="a_node50"><a xlink:title="→ Session.Apparatus→ ArenaObjectobj_x_coord          obj_y_coord          ------------------------------obj_note=&quot;&quot;          ">
+<polygon fill="transparent" points="110,-341.5 0,-341.5 0,-322.5 110,-322.5 110,-341.5" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="start" text-decoration="underline" x="8" y="-330.5">Session.ArenaObject</text>
+</a>
+</g>
+</g>
+<!-- Session.Apparatus&#45;&gt;Session.ArenaObject -->
+<g class="edge" id="edge33">
+<title>Session.Apparatus-&gt;Session.ArenaObject</title>
+<path d="M222.91,-584.99C184.32,-569.98 109.37,-534.89 74,-478 46.12,-433.15 51,-365.46 53.81,-341.65" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Session.Data&#45;&gt;Tif -->
+<g class="edge" id="edge34">
+<title>Session.Data-&gt;Tif</title>
+<path d="M365.61,-584.76C381.77,-573.56 409.71,-554.19 426.66,-542.44" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- ImagingAnalysis -->
+<g class="node" id="node40">
+<title>ImagingAnalysis</title>
+<g id="a_node40"><a xlink:title="→ Session.Data------------------------------plane=null           order                filetype             entry_time_imaginganalysis=CURRENT_TIMESTAMP is_tif_preproc=0     ">
+<ellipse cx="594" cy="-531.5" fill="#00007f" fill-opacity="0.250980" rx="65" ry="17.5" stroke="#00007f" stroke-opacity="0.250980"/>
+<text fill="#00007f" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="594" y="-528.4">ImagingAnalysis</text>
+</a>
+</g>
+</g>
+<!-- Session.Data&#45;&gt;ImagingAnalysis -->
+<g class="edge" id="edge35">
+<title>Session.Data-&gt;ImagingAnalysis</title>
+<path d="M386.76,-584.95C428.87,-574.3 501.02,-556.03 548.11,-544.12" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- TrackingRaw -->
+<g class="node" id="node41">
+<title>TrackingRaw</title>
+<g id="a_node41"><a xlink:title="→ Session.Data------------------------------start_time           stop_time            timestamps=null      timestamps_sys=null  sample_rate          sync                 is_calibrated=0      : tinyint                      # Was calibration (conversion px → mm) applied?entry_time_tracking_raw=CURRENT_TIMESTAMP ">
+<ellipse cx="267" cy="-531.5" fill="#00007f" fill-opacity="0.250980" rx="53.5" ry="17.5" stroke="#00007f" stroke-opacity="0.250980"/>
+<text fill="#00007f" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="267" y="-528.4">TrackingRaw</text>
+</a>
+</g>
+</g>
+<!-- Session.Data&#45;&gt;TrackingRaw -->
+<g class="edge" id="edge36">
+<title>Session.Data-&gt;TrackingRaw</title>
+<path d="M340.68,-584.76C327.02,-575.07 304.76,-559.28 288.27,-547.59" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- Sync -->
+<g class="node" id="node47">
+<title>Sync</title>
+<g id="a_node47"><a xlink:title="→ Session.Datasync_name            ------------------------------num_indices=null     sync_data=null       sample_rate=null     lengths=null         sample_boundaries=null timestamp=CURRENT_TIMESTAMP entry_time=CURRENT_TIMESTAMP ">
+<ellipse cx="457" cy="-265.5" fill="#00007f" fill-opacity="0.250980" rx="26.75" ry="17.5" stroke="#00007f" stroke-opacity="0.250980"/>
+<text fill="#00007f" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="443.5" y="-263.4">Sync</text>
+</a>
+</g>
+</g>
+<!-- Session.Data&#45;&gt;Sync -->
+<g class="edge" id="edge37">
+<title>Session.Data-&gt;Sync</title>
+<path d="M357.82,-584.84C368.85,-564.18 395,-510.08 395,-461.5 395,-461.5 395,-461.5 395,-393 395,-348.73 425.99,-303.82 444.15,-281.31" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- BorderScore -->
+<g class="node" id="node35">
+<title>BorderScore</title>
+<g id="a_node35"><a xlink:title="→ Ratemap→ BorderParams------------------------------borderscore=null     ">
+<ellipse cx="440" cy="-13" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="440" y="-9.9">BorderScore</text>
+</a>
+</g>
+</g>
+<!-- TrackingRaw.Linear -->
+<g class="node" id="node36">
+<title>TrackingRaw.Linear</title>
+<g id="a_node36"><a xlink:title="→ TrackingRaw------------------------------linear_type          file_version=null    pos                  rel_pos              speed                lap_sensor=null      lap_pos=null         lap_indices=null     lap_indices_var=null motor_indices=null   motor_onset_indices=null time_offset=null     polarity=null        ">
+<polygon fill="transparent" points="187,-470 83,-470 83,-451 187,-451 187,-470" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="135" y="-458">TrackingRaw.Linear</text>
+</a>
+</g>
+</g>
+<!-- ImagingFOV -->
+<g class="node" id="node38">
+<title>ImagingFOV</title>
+<g id="a_node38"><a xlink:title="→ ImagingFOVRaw------------------------------calibration_fov      grid_spacing_px      grid_picture_unwarped=null affine_transform=null ">
+<ellipse cx="827" cy="-460.5" fill="#ff0000" fill-opacity="0.125490" rx="13" ry="13" stroke="#ff0000" stroke-opacity="0.125490"/>
+<text fill="#7f0000" fill-opacity="0.627451" font-family="arial" font-size="12.00" text-anchor="middle" x="827" y="-457.4">ImagingFOV</text>
+</a>
+</g>
+</g>
+<!-- ImagingFOVRaw&#45;&gt;ImagingFOV -->
+<g class="edge" id="edge38">
+<title>ImagingFOVRaw-&gt;ImagingFOV</title>
+<path d="M849.87,-639.87C844.93,-601.38 832.81,-506.85 828.53,-473.44" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- ImagingFOV&#45;&gt;RoisCorr -->
+<g class="edge" id="edge39">
+<title>ImagingFOV-&gt;RoisCorr</title>
+<path d="M826.59,-447.32C825.51,-430.95 821.65,-401.56 808,-381 794.5,-360.66 769.32,-345.8 754.58,-338.36" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ImagingFOV&#45;&gt;ProjectionCorr -->
+<g class="edge" id="edge40">
+<title>ImagingFOV-&gt;ProjectionCorr</title>
+<path d="M817.5,-451.33C803.15,-438.99 776.1,-415.73 761.66,-403.31" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Ratemap&#45;&gt;GridScore -->
+<g class="edge" id="edge41">
+<title>Ratemap-&gt;GridScore</title>
+<path d="M384.29,-64.36C375.38,-53.23 360.82,-35.02 351.85,-23.82" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Ratemap&#45;&gt;BorderScore -->
+<g class="edge" id="edge42">
+<title>Ratemap-&gt;BorderScore</title>
+<path d="M399.71,-64.36C408.62,-53.23 423.18,-35.02 432.15,-23.82" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ImagingAnalysis&#45;&gt;Projection -->
+<g class="edge" id="edge43">
+<title>ImagingAnalysis-&gt;Projection</title>
+<path d="M619.3,-515.19C638.85,-503.36 665.69,-487.11 684.71,-475.6" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- ImagingAnalysis&#45;&gt;Cell -->
+<g class="edge" id="edge44">
+<title>ImagingAnalysis-&gt;Cell</title>
+<path d="M594,-513.8C594,-502.95 594,-488.87 594,-478.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- TrackingRaw&#45;&gt;Tracking -->
+<g class="edge" id="edge45">
+<title>TrackingRaw-&gt;Tracking</title>
+<path d="M296.56,-516.67C311.62,-507.9 328.51,-494.98 337,-478 343.96,-464.09 342.64,-457.5 337,-443 330.28,-425.72 314.11,-410.88 303.36,-402.45" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- TrackingRaw&#45;&gt;TrackingRaw.Linear -->
+<g class="edge" id="edge46">
+<title>TrackingRaw-&gt;TrackingRaw.Linear</title>
+<path d="M239.97,-516.37C213.42,-502.49 173.76,-481.76 151.57,-470.16" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- TrackingRaw.OpenField -->
+<g class="node" id="node44">
+<title>TrackingRaw.OpenField</title>
+<g id="a_node44"><a xlink:title="→ TrackingRaw------------------------------x_pos                y_pos                boundary_left        boundary_right       boundary_bottom      boundary_top         speed                head_angle           ">
+<polygon fill="transparent" points="328.5,-470 205.5,-470 205.5,-451 328.5,-451 328.5,-470" stroke="transparent"/>
+<text font-family="arial" font-size="10.00" text-anchor="middle" x="267" y="-458">TrackingRaw.OpenField</text>
+</a>
+</g>
+</g>
+<!-- TrackingRaw&#45;&gt;TrackingRaw.OpenField -->
+<g class="edge" id="edge47">
+<title>TrackingRaw-&gt;TrackingRaw.OpenField</title>
+<path d="M267,-513.8C267,-500.08 267,-481.19 267,-470.27" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- Scope -->
+<g class="node" id="node43">
+<title>Scope</title>
+<g id="a_node43"><a xlink:title="scope_name           ------------------------------entry_time_scope=CURRENT_TIMESTAMP scope_notes=null     ">
+<polygon fill="#00ff00" fill-opacity="0.188235" points="853.5,-746 802.5,-746 802.5,-711 853.5,-711 853.5,-746" stroke="#00ff00" stroke-opacity="0.188235"/>
+<text fill="darkgreen" font-family="arial" font-size="12.00" text-anchor="start" text-decoration="underline" x="810.5" y="-726.4">Scope</text>
+</a>
+</g>
+</g>
+<!-- Scope&#45;&gt;MetaSession.Scope -->
+<g class="edge" id="edge48">
+<title>Scope-&gt;MetaSession.Scope</title>
+<path d="M803.81,-710.97C783.62,-697.18 755.64,-678.06 739.62,-667.12" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Scope&#45;&gt;ImagingFOVRaw -->
+<g class="edge" id="edge49">
+<title>Scope-&gt;ImagingFOVRaw</title>
+<path d="M833.81,-710.8C837.58,-699.95 842.48,-685.87 846.24,-675.05" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Cell.Traces&#45;&gt;Cell.Spikes -->
+<g class="edge" id="edge50">
+<title>Cell.Traces-&gt;Cell.Spikes</title>
+<path d="M575.56,-384.4C571,-373 562.99,-352.98 558.43,-341.58" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="2"/>
+</g>
+<!-- Cell.Traces&#45;&gt;SNR -->
+<g class="edge" id="edge51">
+<title>Cell.Traces-&gt;SNR</title>
+<path d="M583.26,-384.39C587.73,-374.97 594.55,-359.29 598,-345 609.6,-296.9 609.89,-237.46 609.38,-212.23" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSpikes&#45;&gt;1344 -->
+<g class="edge" id="edge52">
+<title>FilteredSpikes-&gt;1344</title>
+<path d="M541.12,-254.42C529.91,-237.98 508.53,-206.64 504.62,-200.91" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSpikes&#45;&gt;1349 -->
+<g class="edge" id="edge53">
+<title>FilteredSpikes-&gt;1349</title>
+<path d="M547.44,-252.37C546.68,-236.02 545.38,-208.19 545.07,-201.48" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- FilteredSpikes&#45;&gt;SNR -->
+<g class="edge" id="edge54">
+<title>FilteredSpikes-&gt;SNR</title>
+<path d="M556.48,-255.53C568.01,-243.35 588.51,-221.67 600.2,-209.31" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Sync&#45;&gt;1351 -->
+<g class="edge" id="edge56">
+<title>Sync-&gt;1351</title>
+<path d="M457.52,-247.89C458.03,-231.17 458.78,-207.04 458.96,-201.27" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Sync&#45;&gt;1345 -->
+<g class="edge" id="edge55">
+<title>Sync-&gt;1345</title>
+<path d="M441.31,-250.82C421.62,-233.66 389.73,-205.87 383.92,-200.8" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Tracking.OpenField&#45;&gt;1350 -->
+<g class="edge" id="edge58">
+<title>Tracking.OpenField-&gt;1350</title>
+<path d="M312.2,-322.46C331.14,-313.67 360.56,-299.04 384,-283 391.5,-277.87 399.35,-270.18 402.04,-267.48" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Tracking.OpenField&#45;&gt;1346 -->
+<g class="edge" id="edge57">
+<title>Tracking.OpenField-&gt;1346</title>
+<path d="M290.03,-322.3C284.68,-306.62 273.77,-274.61 271.44,-267.79" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Tracking.OpenField&#45;&gt;Occupancy -->
+<g class="edge" id="edge59">
+<title>Tracking.OpenField-&gt;Occupancy</title>
+<path d="M298.93,-322.3C307,-310.47 321.41,-289.35 330,-276.76" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Tracking.OpenField&#45;&gt;AngularOccupancy -->
+<g class="edge" id="edge60">
+<title>Tracking.OpenField-&gt;AngularOccupancy</title>
+<path d="M278.3,-322.3C256.1,-309.17 214.53,-284.57 194.86,-272.92" fill="none" stroke="#000000" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Tracking.OpenField&#45;&gt;ArenaObjectPos -->
+<g class="edge" id="edge61">
+<title>Tracking.OpenField-&gt;ArenaObjectPos</title>
+<path d="M261.4,-322.43C208.29,-308.04 103.42,-279.62 67.45,-269.87" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+<!-- Session.ArenaObject&#45;&gt;ArenaObjectPos -->
+<g class="edge" id="edge62">
+<title>Session.ArenaObject-&gt;ArenaObjectPos</title>
+<path d="M55,-322.3C55,-311.02 55,-291.29 55,-278.57" fill="none" stroke="#000000" stroke-dasharray="5,2" stroke-opacity="0.250980" stroke-width="0.75"/>
+</g>
+</g>
+</svg>
